@@ -46,7 +46,7 @@ public final class RESTClient {
                     handler(ResponseResult.failure(ServerError.invalidRequest(errorTuple)))
                 }
                 if let data = data {
-                    // handle data
+                    
                 } else {
                     handler(ResponseResult.failure(ServerError.serverFail))
                 }
